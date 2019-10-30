@@ -67,24 +67,19 @@ $ npm start
 
 ---
 
-<!-- ## API Docs
+## API Docs
 
 ### **Novel**
 
-| Method | Endpoint      | Description      | Request Param    | Request Body                                                                                                                 | Request Query                                                    |
-| ------ | ------------- | ---------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| GET    | /api/novel    | Get Novels       | -                | -                                                                                                                            | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
-| POST   | /api/novel    | Add New Novel    | -                | `title`:STRING (Required) `author`:STRING (Required) `image_url`:STRING `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| PUT    | api/novel/:id | Edit Novel By ID | `id`: INT (UUID) | `title`:STRING (Required) `author`:STRING (Required) `image_url`:STRING `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| DELETE | api/novel     | Delete Novel     | -                | `id`:INT                                                                                                                     | -                                                                |
+| Method | Endpoint           | Description         | Request Param    | Request Body                                                                                              | Request Query                                                    |
+| ------ | ------------------ | ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| GET    | /book              | Show All Book       | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
+| GET    | /book/filterstatus | Show Book by Status | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
+| GET    | /book/filtergenre  | Show Book by Genre  | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
+| POST   | /book/addbook      | Add New Book        | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
+| PUT    | api/updatebook     | Update Book by Id   | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
+| DELETE | api/deletebook     | Delete Book by Id   | -                | -                                                                                                         | -                       
 
-### **Genre**
-
-| Method | Endpoint   | Description    | Request Param | Request Body              | Request Query |
-| ------ | ---------- | -------------- | ------------- | ------------------------- | ------------- |
-| GET    | /api/genre | Get All Genres | -             | -                         | -             |
-| POST   | /api/genre | Add New Genre  | -             | `genre`:STRING (Required) | -             |
-
---- -->
+---
 
 Copyright © 2019 by Andi Mashdarul Khair
