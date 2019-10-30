@@ -13,8 +13,8 @@
   - [Stacks](#stacks)
   - [Dependencies](#dependencies)
   - [Aplication Structure](#aplication-Structure)
-  <!-- - [API Docs](#api-docs)
-    - [Novel](#novel)
+  - [API Docs](#api-docs)
+    <!-- - [Novel](#novel)
     - [Genre](#genre) -->
 
 ## Build Setup
@@ -68,8 +68,7 @@ $ npm start
 ---
 
 ## API Docs
-
-### **Novel**
+<!-- ### **Novel** -->
 
 | Method | Endpoint           | Description         | Request Param    | Request Body                                                                                              | Request Query                                                    |
 | ------ | ------------------ | ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
