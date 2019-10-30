@@ -52,7 +52,6 @@ $ npm start
 - [expressjs](https://www.npmjs.com/package/express) - The server for handling and routing HTTP requests
 - [morgan](https://www.npmjs.com/package/morgan) - a HTTP request logger middleware for Node.js. It simplifies the process of logging requests to your application
 - [dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
-- [momentjs](https://www.npmjs.com/package/moment) - To convert dateTime from javascript format to mysql format easily
 - [mysql](https://www.npmjs.com/package/mysql) - NodeJs driver for MySQL
 - [body-parser](https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
 - [nodemon](https://www.npmjs.com/package/nodemon) - is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
