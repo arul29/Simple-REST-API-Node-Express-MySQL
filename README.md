@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://nodejs.org/">
-    <img title="Restful API" height='200' src="https://raw.githubusercontent.com/arul29/Simple-RESTFul-API-Node-Express-MySQL/master/img/ExpressMySQL.jpg">
+    <img title="Restful API" width='700' src="https://raw.githubusercontent.com/arul29/Simple-RESTFul-API-Node-Express-MySQL/master/img/ExpressMySQL.jpg">
   </a>
 </p>
 
