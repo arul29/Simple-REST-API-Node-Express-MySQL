@@ -75,8 +75,8 @@ $ npm start
 | GET    | /book/filterstatus | Show Book by Status | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
 | GET    | /book/filtergenre  | Show Book by Genre  | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
 | POST   | /book/addbook      | Add New Book        | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| PUT    | api/updatebook     | Update Book by Id   | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| DELETE | api/deletebook     | Delete Book by Id   | -                | -                                                                                                         | -                       
+| PUT    | book/updatebook     | Update Book by Id   | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
+| DELETE | book/deletebook     | Delete Book by Id   | -                | -                                                                                                         | -                       
 
 ---
 
