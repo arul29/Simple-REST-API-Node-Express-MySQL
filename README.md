@@ -8,14 +8,12 @@
 
 ## Table Of Contents
 
-  - [Table Of Content](#table-of-content)
-  - [Build Setup](#build-setup)
-  - [Stacks](#stacks)
-  - [Dependencies](#dependencies)
-  - [Aplication Structure](#aplication-Structure)
-  - [API Docs](#api-docs)
-    <!-- - [Novel](#novel)
-    - [Genre](#genre) -->
+- [Table Of Content](#table-of-content)
+- [Build Setup](#build-setup)
+- [Stacks](#stacks)
+- [Dependencies](#dependencies)
+- [Aplication Structure](#aplication-Structure)
+- [API Docs](#api-docs)
 
 ## Build Setup
 
@@ -69,14 +67,14 @@ $ npm start
 
 ## API Docs
 
-| Method | Endpoint           | Description         | Request Param    | Request Body                                                                                              | Request Query                                                    |
-| ------ | ------------------ | ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| GET    | /book              | Show All Book       | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
-| GET    | /book/filterstatus | Show Book by Status | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
-| GET    | /book/filtergenre  | Show Book by Genre  | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
-| POST   | /book/addbook      | Add New Book        | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| PUT    | /book/updatebook     | Update Book by Id   | -                | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| DELETE | /book/deletebook     | Delete Book by Id   | -                | -                                                                                                         | -                       
+| Method | Endpoint           | Description         | Request Param | Request Body                                                                                              | Request Query            |
+| ------ | ------------------ | ------------------- | ------------- | --------------------------------------------------------------------------------------------------------- | ------------------------ |
+| GET    | /book              | Show All Book       | -             | -                                                                                                         | -                        |
+| GET    | /book/filterstatus | Show Book by Status | -             | -                                                                                                         | status:STRING (Required) |
+| GET    | /book/filtergenre  | Show Book by Genre  | -             | -                                                                                                         | genre:STRING (Required)  |
+| POST   | /book/addbook      | Add New Book        | -             | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                        |
+| PUT    | /book/updatebook   | Update Book by Id   | -             | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | id:NUMBER (Required)     |
+| DELETE | /book/deletebook   | Delete Book by Id   | -             | -                                                                                                         | id:NUMBER (Required)     |
 
 ---
 
